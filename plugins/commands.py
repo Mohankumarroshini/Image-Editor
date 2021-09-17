@@ -13,12 +13,12 @@ async def start(client: Client, message: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("ʜᴇʟᴘ🦸", callback_data="help_data"),
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ🤓", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
+                            "sᴜᴘᴘᴏʀᴛ🦁",
                             url="https://github.com/TroJanzHEX/Image-Editor",
                         )
                     ],
@@ -39,12 +39,12 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("Bᴀᴄᴋ🦸", callback_data="start_data"),
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ🤓", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
+                            "sᴜᴘᴘᴏʀᴛ🦁",
                             url="https://github.com/TroJanzHEX/Image-Editor",
                         )
                     ],
@@ -65,12 +65,12 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="help_data"),
-                        InlineKeyboardButton("START", callback_data="start_data"),
+                        InlineKeyboardButton("ʙᴀᴄᴋ🦸", callback_data="help_data"),
+                        InlineKeyboardButton("sᴛᴀʀᴛ🧚", callback_data="start_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE",
+                            "sᴜᴘᴘᴏʀᴛ",
                             url="https://github.com/TroJanzHEX/Image-Editor",
                         )
                     ],
