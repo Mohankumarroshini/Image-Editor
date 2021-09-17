@@ -19,7 +19,7 @@ async def start(client: Client, message: Message):
                     [
                         InlineKeyboardButton(
                             "sᴜᴘᴘᴏʀᴛ🦁",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            url="https://t.me/mastro_support",
                         )
                     ],
                 ]
@@ -45,7 +45,7 @@ async def help(client, message):
                     [
                         InlineKeyboardButton(
                             "sᴜᴘᴘᴏʀᴛ🦁",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            url="https://t.me/mastro_support",
                         )
                     ],
                 ]
@@ -70,8 +70,8 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "sᴜᴘᴘᴏʀᴛ",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
+                            "sᴜᴘᴘᴏʀᴛ🦁",
+                            url="https://t.me/mastro_support",
                         )
                     ],
                 ]
